@@ -1,0 +1,23 @@
+html,body{
+    weight:100px;
+    height: 100px;
+    margin:0%;
+    padding:0%;
+
+}
+.outer-box{
+    grid-template-rows: 1fr 5fr;
+}
+.Idea{
+    display:flex;
+    justify-content: center;
+    align:center;
+}
+.Sub-Idea{display:flex;
+    justify-content: center;
+    align:center;
+
+}
+.blank{
+    grid-template-columns: 1fr 3fr 3fr;
+}
