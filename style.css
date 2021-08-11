@@ -3,7 +3,7 @@ html,body{
     margin:0%;
     padding:0%;
     background-color:white;
-
+    border-top:rgb(245, 198, 69) solid 5px;
 }
 .outer-box{
     grid-template-rows: 1fr 5fr;
@@ -13,18 +13,21 @@ html,body{
     justify-content: center;
     color:green
 }
-.Sub-Idea{display:flex;
+.Sub-Idea{
+    display:flex;
     justify-content: center;
     color:green
 
 }
-.blank{display:grid;
+.blank{
+    display:grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .links{display:grid;
     align-items:center;
     grid-template-rows:1fr 1fr;
+    border-right:dotted silver 3px;
 }
 .customer{display:grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -35,12 +38,14 @@ html,body{
 .buy{display:flex;
     align-items:center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:25px
+    font-size:25px;
+    border-right: dotted silver 1px;
 }
 .books{display:grid;
     grid-template-rows: 1fr 1fr;
+    border-top:dotted silver 1px
 }
-.picks{display:grid;
+.picks{display:flex;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:25px
