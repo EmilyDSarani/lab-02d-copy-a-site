@@ -31,6 +31,14 @@ html,body{
     align:center;
     grid-template-rows: 1fr 1fr;
 }
+.customer{display:grid;
+    align:center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.special{display:grid;
+    align:center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 .buy{display:flex;
     align:center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -40,3 +48,16 @@ html,body{
     align:center;
     grid-template-rows: 1fr 1fr;
 }
+
+a:link {
+    color: green;
+  }
+  
+  a:visited {
+    color:maroon;
+  }
+  
+  a:hover {
+    color:mediumaquamarine;
+  }
+  
