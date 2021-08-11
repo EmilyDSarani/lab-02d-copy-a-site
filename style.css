@@ -3,6 +3,7 @@ html,body{
     height: 100px;
     margin:0%;
     padding:0%;
+    background-color: ivory;
 
 }
 .outer-box{
@@ -12,12 +13,30 @@ html,body{
     display:flex;
     justify-content: center;
     align:center;
+    color:green
 }
 .Sub-Idea{display:flex;
     justify-content: center;
     align:center;
+    color:green
 
 }
-.blank{
-    grid-template-columns: 1fr 3fr 3fr;
+.blank{display:grid;
+    justify-content: center;
+    align:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px
+}
+.links{display:grid;
+    align:center;
+    grid-template-rows: 1fr 1fr;
+}
+.buy{display:flex;
+    align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:35px
+}
+.books{display:grid;
+    align:center;
+    grid-template-rows: 1fr 1fr;
 }
